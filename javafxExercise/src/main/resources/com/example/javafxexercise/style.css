@@ -1,0 +1,53 @@
+.main{
+    -fx-background-color: transparent;
+
+}
+.card{
+    -fx-background-color: linear-gradient(to bottom right, #fc00ff, #00dbde);
+    -fx-background-radius: 15px;
+}
+
+.keyresult{
+    -fx-background-color: linear-gradient(to bottom right, rgba(140, 0, 143, .30), rgba(0, 130, 133, .30));
+    -fx-background-radius: 20px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 18px;
+    -fx-padding: 20px 15px 5px;
+}
+
+.prevnumber{
+    -fx-font-size: 15px;
+    -fx-text-fill: #fff;
+}
+
+.keypad{
+    -fx-background-color: rgba(0, 130, 133, .10);
+    -fx-background-radius: 0px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 30px;
+    -fx-cursor: hand;
+}
+
+.keypad:hover{
+    -fx-background-color: rgba(140, 0, 143, .30);
+}
+
+.clear{
+    -fx-background-color: rgba(0, 130, 133, .10);
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.clear.hover{
+    -fx-background-color: rgba(140, 0, 143, .30);
+}
+
+.exit{
+    -fx-background-color: #bf3c54;
+    -fx-background-radius: 60px;
+    -fx-cursor: hand;
+}
+
+.exit:hover{
+       -fx-background-color: rgba(140, 0, 143, 0.30);
+}
+
